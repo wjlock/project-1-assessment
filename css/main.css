@@ -1,0 +1,52 @@
+#count-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plus-sign {
+    text-align: center;
+    border: 3px solid grey;
+    height: 40px;
+    width: 40px;
+    border-radius: .2em;
+    margin-right: 20px;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+    font-size: xx-large;
+}
+#minus-sign {
+    text-align: center;
+    border: 3px solid grey;
+    height: 40px;
+    width: 40px;
+    border-radius: .2em;
+    margin-left: 20px;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+    font-size: xx-large;
+}
+input[type=number] {
+    text-align: center;
+    padding-left: 15px;
+    border: 3px solid grey;
+    border-radius: .4em;
+    height: 40px;
+    font-size: x-large;
+    width: 90px;
+}
+#plus-sign:hover {
+    background-color: white;
+    color: grey;
+}
+#minus-sign:hover {
+    background-color: white;
+    color: grey;
+}
+
